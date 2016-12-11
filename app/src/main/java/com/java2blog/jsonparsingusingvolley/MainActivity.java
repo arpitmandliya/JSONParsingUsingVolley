@@ -33,8 +33,11 @@ public class MainActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     ListView listView;
 
-    //Web services URL
-    private String jsonURl = "http://192.168.2.22:8080/JAXRSJsonExample/rest/countries";
+   // In case if you deploy rest web service, then use below link and replace below ip address with yours
+    //http://192.168.2.22:8080/JAXRSJsonExample/rest/countries
+    
+    //Direct Web services URL
+    private String path = "https://cdn.rawgit.com/arpitmandliya/AndroidRestJSONExample/master/countries.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
